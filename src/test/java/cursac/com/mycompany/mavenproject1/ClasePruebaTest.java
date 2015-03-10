@@ -55,8 +55,8 @@ public class ClasePruebaTest {
     @org.junit.Test
     public void testSumar() {
         System.out.println("sumar");
-        int a = 0;
-        int b = 0;
+        int a = 5;
+        int b = 5;
         ClasePrueba instance = new ClasePrueba();
         int expResult = 10;
         int result = instance.sumar(a, b);
